@@ -497,20 +497,20 @@
  *
  * (c) 2019 Colophon Foundry
  *
- * Licenced to Wataru Otsuka 
+ * Licenced to James Halim
  */
 @font-face {
     font-family: 'apercu-light-pro';
-    src: url('../font/apercu/apercu-light-pro.eot');
-    src: url('../font/apercu/apercu-light-pro.eot?#iefix') format('embedded-opentype'), url('../font/apercu/apercu-light-pro.woff2') format('woff2'), url('../font/apercu/apercu-light-pro.woff') format('woff');
+    src: url('/font/apercu/Apercu-Pro-Light.ttf');
+    src: url('/font/apercu/Apercu-Pro-Light.ttf') format('embedded-opentype'), url('/font/apercu/Apercu-Pro-Light.ttf') format('woff2'), url('/font/apercu/Apercu-Pro-Light.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'apercu-regular-pro';
-    src: url('../font/apercu/apercu-regular-pro.eot');
-    src: url('../font/apercu/apercu-regular-pro.eot?#iefix') format('embedded-opentype'), url('../font/apercu/apercu-regular-pro.woff2') format('woff2'), url('../font/apercu/apercu-regular-pro.woff') format('woff');
+    src: url('/font/apercu/apercu_regular_pro.otf');
+    src: url('/font/apercu/apercu_regular_pro.otf') format('embedded-opentype'), url('/font/apercu/apercu_regular_pro.otf') format('woff2'), url('/font/apercu/apercu_regular_pro.otf') format('woff');
     font-weight: normal;
     font-style: normal;
 }

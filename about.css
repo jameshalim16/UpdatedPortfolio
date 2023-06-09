@@ -1,0 +1,156 @@
+
+/* ----------------------------------------------------------   
+
+  #about
+
+   ---------------------------------------------------------- */
+
+   #about {margin-top:70px; padding: 0 7.5%;}
+
+   @media screen and (max-width: 900px) {
+   #about { margin-top: 60px; padding: 0 7.5%; }
+   }
+   @media screen and (max-width: 738px) {
+   #about { margin-top: 40px; padding: 0 5%; }
+   }
+   
+   
+   
+   /* .catch_area */
+   #about .catch_area {}
+   #about .catch_area h2.catch {font-size: 70px; font-family: 'apercu-regular-pro';font-weight: normal;letter-spacing: 0; line-height: 1.1;}
+   
+   @media screen and (max-width: 1200px) {
+   #about .catch_area h2.catch {font-size: 6vw; }
+   }
+   @media screen and (max-width: 900px) {
+   #about .catch_area h2.catch {font-size: 7vw; line-height: 1.1; }
+   }
+   @media screen and (max-width: 738px) {
+   #about .catch_area h2.catch {font-size: 8vw; line-height: 1.1;letter-spacing: 0.02em; }
+   }
+   @media screen and (max-width: 500px) {
+   #about .catch_area h2.catch {font-size: 9vw; line-height: 1.2; }
+   }
+   
+   
+   
+   
+   
+   
+   
+   /* ----- .profile_area ----- */
+   #about .profile_area { margin-top: 80px; position: relative; z-index: 0;}
+   
+   @media screen and (max-width: 900px) {
+   #about .profile_area { margin-top: 70px; }
+   }
+   @media screen and (max-width: 738px) {
+   #about .profile_area { margin-top: 50px; }
+   }
+   
+   
+   /* .img_area */
+   #about .profile_area .img_area { float: left; width: 40%; }
+   
+   @media screen and (max-width: 900px) {
+   #about .profile_area .img_area { float: left; width: 37.5%;  }
+   }
+   @media only screen and (max-width: 738px) {
+   #about .profile_area .img_area { float: none; width: 100%; margin: 0; }
+   }
+   
+   
+   /* .txt_area */
+   #about .profile_area .txt_area { position: absolute; top: 50%; right:5%; width: 45%; -webkit-transform: translate(0, -50%); transform: translate(0, -50%); z-index:0; }
+   #about .profile_area .name_area { }
+   #about .profile_area .name_area h2.en {font-size: 16px; font-family: 'apercu-regular-pro';font-weight: normal;letter-spacing: 0.05em; line-height: 1;}
+   #about .profile_area .name_area h1.name_jp { margin-top: 15px;font-size: 20px;font-family: 'Noto Sans JP', sans-serif; font-weight: 500; letter-spacing: 0.2em; line-height: 1; }
+   #about .profile_area .description_area { margin-top: 40px;}
+   #about .profile_area .description_area p { margin-top: 1.5em; }
+   #about .profile_area .description_area p:first-child { margin-top: 0;}
+   
+   @media screen and (max-width: 1200px) {
+   #about .profile_area .txt_area { position: static; float: right; margin:35px 5% 0 0; width: 45%; -webkit-transform: translate(0,0); transform: translate(0,0);  }
+   }
+   @media screen and (max-width: 900px) {
+   #about .profile_area .txt_area { margin:35px 0 0 0; width: 50%; }
+   #about .profile_area .name_area h2.en {font-size: 15px; }
+   #about .profile_area .name_area h1.name_jp { margin-top: 15px;font-size: 18px;}
+   #about .profile_area .description_area { margin-top: 35px;}
+   }
+   @media only screen and (max-width: 738px) {
+   #about .profile_area .txt_area { float: none; width: 100%; max-width: 500px; margin: 45px auto 0; padding: 0 2.5%; }
+   #about .profile_area .name_area { text-align: center;}
+   #about .profile_area .name_area h2.en {font-size: 15px; }
+   #about .profile_area .name_area h1.name_jp { margin-top: 12px;}
+   #about .profile_area .description_area { margin-top: 30px;}
+   }
+   
+   
+   
+   
+   
+   /* ----- .other_area ----- */
+   #about .other_area { margin-top: 120px;}
+   
+   @media screen and (max-width: 900px) {
+   #about .other_area { margin-top: 110px;}
+   }
+   @media screen and (max-width: 738px) {
+   #about .other_area { margin-top: 100px;}
+   }
+   
+   
+   /* .img_area */
+   #about .other_area .img_area { float:right; width: 40%; position: relative; z-index: 0; }
+   #about .other_area .img_area:before  {position: absolute; top: 0; right: 0; bottom: 0; left: 0; content: ""; background: #111; opacity: 0.2; z-index: 1;}
+   #about .other_area .img_area img { position: relative; z-index: 0;}
+   
+   /* .logo_area */
+   #about .logo-area { position: absolute; top: 50%; right:0; width: 100%; -webkit-transform: translate(0, -50%); -moz-transform: translate(0, -50%); -ms-transform: translate(0, -50%); -o-transform: translate(0, -50%); transform: translate(0, -50%); z-index:1; text-align: center; color: #fafafa;}
+   #about .logo-area h1.jp { font-size: 21px;font-family: 'Noto Sans JP', sans-serif; font-weight: 700; letter-spacing: 0.25em; line-height: 1;}
+   #about .logo-area h1.jp .and { padding: 0 3px; font-size: 0.9em; vertical-align: 0;}
+   #about .logo-area h1.name { margin-top: 12px; font-size: 17px;font-family: 'apercu-regular-pro'; font-weight: normal; letter-spacing: 0.2em; line-height: 1;}
+   #about .logo-area h1.name span { margin-right: 10px;font-family: 'Dawning of a New Day', cursive; font-weight:normal; font-size:20px; vertical-align:0;  letter-spacing: 0.1em; text-transform:lowercase; }
+   
+   @media screen and (max-width: 900px) {
+   #about .other_area .img_area { margin: 0 0 35px 40px;width: 50%; }
+   #about .logo-area h1.jp { font-size: 17px;}
+   #about .logo-area h1.jp .and { padding: 0 2px; }
+   #about .logo-area h1.name { margin-top: 8px; font-size: 14px;}
+   #about .logo-area h1.name span { margin-right: 8px;ffont-size:15px;}
+   }
+   @media screen and (max-width: 738px) {
+   #about .other_area .img_area { margin: 0 0 35px 40px;}
+   }
+   @media screen and (max-width: 600px) {
+   #about .other_area .img_area { float:none; width: 100%; max-width: 320px; margin: 0 auto;}
+   }
+   
+   
+   /* .txt_area */
+   #about .other_area .txt_area { float: left; width: 40%; margin: 50px 0 0 6.5%;}
+   #about .other_area .txt_area .catch_area { margin-bottom: 35px;}
+   #about .other_area .txt_area h3.catch { font-size:16px; font-family:'Noto Sans JP', sans-serif; font-weight:500; line-height:1.8; letter-spacing:0.1em;}
+   #about .other_area .txt_area p { margin-top: 1.5em; }
+   #about .other_area .txt_area p:first-child { margin-top: 0;}
+   
+   @media screen and (max-width: 900px) {
+   #about .other_area .txt_area {float: none; width: 100%; margin: 35px 0 0; }
+   #about .other_area .txt_area .catch_area { margin-bottom: 30px;}
+   #about .other_area .txt_area h3.catch { font-size:15px; ine-height:1.8;}
+   }
+   @media only screen and (max-width: 738px) {
+   #about .other_area .txt_area { float: none; width: 100%; max-width: 700px; margin: 35px auto 0; padding: 0 2.5%; }
+   #about .other_area .txt_area .catch_area { margin-bottom: 25px; text-align: center;}
+   #about .other_area .txt_area h3.catch {text-align: left;}
+   }
+   @media screen and (max-width: 600px) {
+   #about .other_area .txt_area h3.catch {text-align:center;}
+   }
+   
+   
+   
+   
+   
