@@ -1,0 +1,400 @@
+@import url("default.css");a {
+    color: #333
+}
+
+.color_g a,.backBlack a {
+    color: #fff
+}
+
+.font-en {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300
+}
+
+button,select,textarea,input,body {
+    font-family: fot-udkakugo-large-pr6n, sans-serif
+}
+
+body {
+    font-weight: 400;
+    line-height: 2.1;
+    color: #333;
+    font-size: 16px;
+    background: #fff;
+    transition: background 0.65s cubic-bezier(0.18, 0.06, 0.23, 1),color 0.65s cubic-bezier(0.18, 0.06, 0.23, 1)
+}
+
+body.backBlack {
+    background: #333;
+    color: #fff
+}
+
+.color_g {
+    color: #fff
+}
+
+button,select,textarea,input {
+    font-weight: 400;
+    line-height: 2.05;
+    color: #333;
+    font-size: 18px
+}
+
+body,.noBar {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+body::-webkit-scrollbar,.noBar::-webkit-scrollbar {
+    display: none
+}
+
+.mainWidth {
+    padding: 0 100px
+}
+
+.mainWidth2 {
+    padding: 0 50px
+}
+
+.mainInner {
+    max-width: 1530px;
+    margin: 0 auto
+}
+
+@media only screen and (max-width: 830px) {
+    .mainWidth {
+        padding:0 50px
+    }
+
+    .mainWidth2 {
+        padding: 0 30px
+    }
+}
+
+#pageLoad {
+    background: #fafaf9;
+    position: fixed;
+    z-index: 89;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transition: opacity 0.4s cubic-bezier(0.26, 0.06, 0, 1),visibility 0s 0.4s;
+    opacity: 0
+}
+
+#pageLoad.on {
+    visibility: visible;
+    transition: opacity 0.4s cubic-bezier(0.26, 0.06, 0, 1);
+    opacity: 1
+}
+
+#pageHeader {
+    transition: opacity 0.85s cubic-bezier(0.26, 0.06, 0, 1);
+    opacity: 1;
+    position: relative;
+    z-index: 100;
+    mix-blend-mode: difference;
+    visibility: visible
+}
+
+.head_foot_area #pageHeader {
+    opacity: 0 !important;
+    visibility: hidden;
+    transition: opacity 0.85s cubic-bezier(0.26, 0.06, 0, 1),visibility 0s 0.2s
+}
+
+.head_foot_area .head_navi {
+    visibility: hidden;
+    transition: visibility 0s .2s !important
+}
+
+.head_logo {
+    position: fixed;
+    z-index: 100;
+    width: 156px;
+    top: 43px;
+    left: 39px
+}
+
+.head_logo .logo1 {
+    transition: fill 0.4s cubic-bezier(0.18, 0.06, 0.23, 1)
+}
+
+.head_logo a {
+    display: block;
+    position: relative;
+    z-index: 1
+}
+
+.head_logo a:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background: url(../img/common/logo_w.svg) 0 0 no-repeat;
+    background-size: 100% auto;
+    top: 2px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0
+}
+
+.head_logo img {
+    opacity: 1
+}
+
+.head_navi {
+    position: fixed;
+    z-index: 80;
+    top: 47px;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    visibility: visible;
+    transition: transform .4s, opacity .4s;
+    opacity: 1
+}
+
+.head_navi a {
+    margin-left: 36px;
+    pointer-events: auto;
+    color: #fff
+}
+
+.hover_box {
+    position: fixed;
+    z-index: 110;
+    top: 47px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    visibility: hidden;
+    transition: transform .2s, opacity .2s, visibility 0s .2s;
+    opacity: 0
+}
+
+.hover_box.off {
+    display: none
+}
+
+.hover_box.on {
+    visibility: visible;
+    transition: transform .4s, opacity .4s;
+    opacity: 1
+}
+
+.hover_box_main {
+    background: #fafaf9;
+    position: fixed;
+    top: 94px;
+    pointer-events: auto;
+    display: flex;
+    padding: 40px 50px;
+    box-shadow: 0px 8px 30px 0px rgba(130,115,92,0.2)
+}
+
+.hover_box_head {
+    width: 170px;
+    padding-top: 17px
+}
+
+.hover_box_btn {
+    width: 180px
+}
+
+.hover_box_btn {
+    margin-left: 35px
+}
+
+.hover_box_head {
+    border-top: solid #333 1px
+}
+
+.hover_box_head a {
+    display: block
+}
+
+.hover_box_btn {
+    display: block !important
+}
+
+.hover_box_img {
+    overflow: hidden
+}
+
+.hover_box_img img {
+    transition: transform 400ms cubic-bezier(0.43, 0.05, 0.17, 1)
+}
+
+.hover_box_ttl {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 8px;
+    padding-right: 70px;
+    position: relative;
+    z-index: 1
+}
+
+.hover_box_ttl span {
+    position: static
+}
+
+.hover_box_ttl .arrow1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    margin: auto;
+    top: 3px;
+    bottom: 0
+}
+
+.head_navi.line1 a:before {
+    background: #cfcfcf
+}
+
+.head_navi a:first-child {
+    margin-left: 0
+}
+
+.popup_on .head_navi a {
+    visibility: hidden;
+    transition: transform .2s, opacity .2s, visibility 0s .2s;
+    opacity: 0
+}
+
+.head_navi a.hover:after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: -13px;
+    right: 0;
+    left: 0
+}
+
+.head_menu {
+    width: 80px;
+    height: 80px;
+    border: rgba(255,255,255,0.15) solid 1px;
+    border-radius: 100px;
+    z-index: 100;
+    display: block;
+    position: fixed;
+    right: 40px;
+    top: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 15px;
+    color: #fff
+}
+
+.head_menu:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background-color: #cfcfcf;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 100px;
+    transform: scale(0);
+    transition: opacity 0.4s cubic-bezier(0.26, 0.06, 0, 1),transform 400ms cubic-bezier(0.43, 0.05, 0.17, 1);
+    opacity: 0
+}
+
+.head_menu .head_menu_txt {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    top: 1px;
+    height: 13px;
+    overflow: hidden;
+    line-height: 13px
+}
+
+.head_menu .head_menu_txt span:after {
+    content: attr(data-text);
+    display: block
+}
+
+.head_menu .head_menu_txt span {
+    display: block;
+    transition: transform 0.4s cubic-bezier(0.36, 0.14, 0, 1)
+}
+
+.head_menu.on .head_menu_txt span {
+    transform: translate(0, -13px)
+}
+
+.popup_on.backBlack .head_logo a:before {
+    opacity: 0
+}
+
+.popup_on.backBlack .head_logo img {
+    opacity: 1
+}
+
+@media only screen and (max-width: 1000px) {
+    .head_navi {
+        display:none
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .head_menu:hover:before {
+        transition-delay:0s;
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .hover_box_btn:hover .hover_box_img img {
+        transform: scale(1.05)
+    }
+
+    .head_menu:hover {
+        color: #000
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size:12px
+    }
+
+    .mainWidth {
+        padding: 0 7%
+    }
+
+    .mainWidth2 {
+        padding: 0 3%
+    }
+
+    .head_logo {
+        width: 95px;
+        left: 25px
+    }
+
+    .head_menu {
+        width: 65px;
+        height: 65px;
+        right: 9px
+    }
+
+    .head_menu .head_menu_txt {
+        font-size: 10px
+    }
+}

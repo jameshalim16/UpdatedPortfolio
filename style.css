@@ -3,8 +3,8 @@
 　************************************************************************************************ */
 @font-face {
     font-family: themify;
-    src: url(../font/themify/themify.eot?-fvbane);
-    src: url(../font/themify/themify.eot?#iefix-fvbane) format('embedded-opentype'),url(../font/themify/themify.woff?-fvbane) format('woff'),url(../font/themify/themify.ttf?-fvbane) format('truetype'),url(../font/themify/themify.svg?-fvbane#themify) format('svg');
+    src: url(/themify-icons/fonts/themify.eot);
+    src: url(/themify-icons/fonts/themify.eot) format('embedded-opentype'),url(/themify-icons/fonts/themify.woff) format('woff'),url(/themify-icons/fonts/themify.ttf) format('truetype'),url(/themify-icons/fonts/themify.svg) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -407,8 +407,8 @@
  */
 @font-face {
     font-family: 'FontAwesome';
-    src: url('../font/FontAwesome4/fontawesome-webfont.eot?v=4.7.0');
-    src: url('../font/FontAwesome4/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../font/FontAwesome4/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../font/FontAwesome4/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../font/FontAwesome4/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../font/FontAwesome4/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    src: url('/fontawesome-free-6.4.0-web/webfonts/fontawesome-webfont.eot');
+    src: url('/fontawesome-free-6.4.0-web/webfonts/fontawesome-webfont.eot') format('embedded-opentype'),url('/fontawesome-free-6.4.0-web/webfonts/fa-brands-400.woff2') format('woff2'),url('/fontawesome-free-6.4.0-web/webfonts/fa-v4compatibility.woff2') format('woff'),url('/fontawesome-free-6.4.0-web/webfonts/fa-v4compatibility.ttf') format('truetype'),url('') format('svg');
     font-weight: normal;
     font-style: normal
 }
