@@ -1,0 +1,61 @@
+.CPageSectionTitle:where(.astro-IODEQ3CL) {
+    border-bottom: 1px solid rgba(40,40,40,.2)
+}
+
+@media screen and (min-width: 768px) {
+    .CPageSectionTitle:where(.astro-IODEQ3CL) {
+        padding-bottom:.9375rem
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .CPageSectionTitle:where(.astro-IODEQ3CL) {
+        padding-bottom:.5rem
+    }
+}
+
+.title:where(.astro-IODEQ3CL) {
+    font-weight: 600;
+    display: inline
+}
+
+.bAndroid .title:where(.astro-IODEQ3CL) {
+    font-weight: 700
+}
+
+@media screen and (min-width: 768px) {
+    .title:where(.astro-IODEQ3CL) {
+        font-size:3.4375rem
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .title:where(.astro-IODEQ3CL) {
+        font-size:1.5625rem;
+        line-height: 1.25
+    }
+}
+
+.text:where(.astro-IODEQ3CL) {
+    display: inline
+}
+
+@media screen and (min-width: 768px) {
+    .text:where(.astro-IODEQ3CL) {
+        font-size:.75rem;
+        margin-left: .9375rem;
+        vertical-align: .9375rem
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .text:where(.astro-IODEQ3CL) {
+        font-size:.625rem;
+        margin-left: .5rem;
+        vertical-align: .3125rem
+    }
+}
+
+.-selectionGray:where(.astro-IODEQ3CL)::selection {
+    background-color: #282828
+}

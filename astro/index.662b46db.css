@@ -1,0 +1,20 @@
+.CPlusIcon:where(.astro-FGARMHKQ) {
+    transition: transform .2s ease
+}
+
+.CPlusIcon:where(.astro-FGARMHKQ).-white {
+    fill: #fff
+}
+
+.CPlusIcon-horizontal:where(.astro-FGARMHKQ) {
+    transition: transform .2s ease;
+    transform-origin: center
+}
+
+.CPlusIcon:where(.astro-FGARMHKQ).-open {
+    transform: rotate(90deg)
+}
+
+.CPlusIcon:where(.astro-FGARMHKQ).-open .CPlusIcon-horizontal:where(.astro-FGARMHKQ) {
+    transform: scaleX(0)
+}
