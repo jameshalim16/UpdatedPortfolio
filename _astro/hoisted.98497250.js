@@ -1,6 +1,6 @@
 import {P as W, C as c, l as d, g as s, s as n, e as $, a as k, b as q, m as U, w as C, c as B, d as M, t as Y, o as G, f as K, h as z, i as X, j, k as Q, n as p, p as u, q as E} from "./CFooterCvLink.astro_astro_type_script_index_0_lang.635a4800.js";
-import "./CEventItem.astro_astro_type_script_index_0_lang.781cf504.js";
-import "./CButton.astro_astro_type_script_index_0_lang.e574c030.js";
+import "./js/CEventItem.astro_astro_type_script_index_0_lang.781cf504.js";
+import "./js/CButton.astro_astro_type_script_index_0_lang.e574c030.js";
 import {L as a} from "_astro/js/Local.698f0f50.js";
 import {V as v} from "_astro/js/vivus.bce1f9e7.js";
 import {V as f} from "_astro/js/video.8d2e17ce.js";

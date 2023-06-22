@@ -7,6 +7,7 @@
     vertical-align: baseline
 }
 
+
 html {
     line-height: 1
 }
@@ -3106,6 +3107,8 @@ a[target=_blank] .set-icon-blank-w:after {
     top: -50vh;
     bottom: -50vh
 }
+
+
 
 .cursor-img {
     opacity: 0;
@@ -6697,3 +6700,127 @@ a[target=_blank] .set-icon-blank-w:after {
         opacity: 1
     }
 }
+
+
+/*REF START*/
+.top_philosophy {
+    padding-top: 256px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+.top_philosophy ._text_sec {
+    width: 48.5vw;
+    padding-left: 9.4vw;
+}
+.top_philosophy .all_button {
+    margin-top: 64px;
+}
+
+.top_philosophy_img_sec {
+    aspect-ratio: 1600/912;
+    padding-bottom: 57%;
+    margin-top: 205px;
+    position: relative;
+    z-index: 2;
+}
+.top_philosophy_img_sec ._item {
+    position: absolute;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+}
+.top_philosophy_img_sec ._item img {
+    border-radius: 16px;
+    overflow: hidden;
+    will-change: transform;
+    opacity: 0.3;
+}
+.top_philosophy_img_sec ._item_01 {
+    width: 33.25%;
+    top: 21%;
+    left: 50%;
+}
+.top_philosophy_img_sec ._item_01 img {
+    -webkit-transform: translate3d(0, 10%, 0) scale(0.8);
+            transform: translate3d(0, 10%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_02 {
+    width: 15%;
+    top: 21%;
+    left: 23.5%;
+}
+.top_philosophy_img_sec ._item_02 img {
+    -webkit-transform: translate3d(-40%, 80%, 0) scale(0.8);
+            transform: translate3d(-40%, 80%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_03 {
+    width: 24.125%;
+    top: 26%;
+    left: 81%;
+}
+.top_philosophy_img_sec ._item_03 img {
+    -webkit-transform: translate3d(40%, 50%, 0) scale(0.8);
+            transform: translate3d(40%, 50%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_04 {
+    width: 21.5%;
+    top: 25%;
+    left: 2.5%;
+}
+.top_philosophy_img_sec ._item_04 img {
+    -webkit-transform: translate3d(-70%, 50%, 0) scale(0.8);
+            transform: translate3d(-70%, 50%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_05 {
+    width: 24.0625%;
+    top: 26%;
+    left: 107.5%;
+}
+.top_philosophy_img_sec ._item_05 img {
+    -webkit-transform: translate3d(40%, 50%, 0) scale(0.8);
+            transform: translate3d(40%, 50%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_06 {
+    width: 24.0625%;
+    top: 70.4%;
+    left: 28%;
+}
+.top_philosophy_img_sec ._item_06 img {
+    -webkit-transform: translate3d(-40%, 50%, 0) scale(0.8);
+            transform: translate3d(-40%, 50%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_07 {
+    width: 24.125%;
+    top: 73%;
+    left: 54.7%;
+}
+.top_philosophy_img_sec ._item_07 img {
+    -webkit-transform: translate3d(40%, 30%, 0) scale(0.8);
+            transform: translate3d(40%, 30%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_08 {
+    width: 23.625%;
+    top: 68.4%;
+    left: 1.5%;
+}
+.top_philosophy_img_sec ._item_08 img {
+    -webkit-transform: translate3d(-70%, 50%, 0) scale(0.8);
+            transform: translate3d(-70%, 50%, 0) scale(0.8);
+}
+.top_philosophy_img_sec ._item_09 {
+    width: 28.625%;
+    top: 72.2%;
+    left: 83.3%;
+}
+.top_philosophy_img_sec ._item_09 img {
+    -webkit-transform: translate3d(90%, 50%, 0) scale(0.8);
+            transform: translate3d(90%, 50%, 0) scale(0.8);
+}
+
+.top_business_inner {
+    max-width: 1000px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*REFERENCE END*/
